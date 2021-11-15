@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --color-crema: #d79491;
+    --color-negro: #393a34;
+    --fuente: 'Poppins', sans-serif;
+    --fondo: ghostwhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--color-negro);
+}
+
+a{
+    text-decoration: none;
+}
+
+a, .social i{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menusticky{
+    width: 100%;
+    position: sticky;
+    background: var(--fondo);
+}
+
+.menu{
+    display: flex;
+    width: 62%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+    font-size: 0.7em;
+    font-family: var(--fuente);
+}
+
+.nav h1, .nav ul li{
+    padding: 0 8px;
+}
+
+.nav h1 a, .welcome h1 span{
+    color: var(--color-crema);
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social i{
+    margin: 0 6px;
+}
+
+.banner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner img{
+    width: 50%;
+    height: 100%;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    padding-right: 51px;
+    flex-direction: column;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+}
+
+.welcome h1{
+    font-size: 3.2em;
+    line-height: 1.2em;
+}
+
+.welcome p{
+    font-size: 0.7em;
+}
+
+.welcome i{
+    font-size: 1.8em;
+    padding-top: 30px;
+}
+
+.present{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 70px 0;
+    width: 80%;
+    font-family: var(--fuente);
+    width: 62%;
+}
+
+.present img{
+    width: 100%;
+}
+
+.present h1{
+    font-size: 1.5rem;
+}
+
+.present p{
+    text-align: center;
+    width: 55%;
+    font-size: 0.8rem;
+    padding: 15px 0 50px 0;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    font-family: var(--fuente);
+    font-size: 0.7rem;
+    padding-bottom: 50px;
+}
+
+.info div{
+    padding-right: 15px;
+}
